@@ -61,10 +61,27 @@ public class Main {
         System.out.println();
 
         griffindors[2].compareGriffindor(griffindors[1]);
+        System.out.println();
         slytherins[1].compareSlytherin(slytherins[2]);
+        System.out.println();
         hufflepuffs[0].compareHufflepuff(hufflepuffs[2]);
+        System.out.println();
         rawenclaws[2].compareRawenclaw(rawenclaws[1]);
+        System.out.println();
 
         hogwarts[4].compareHogwarts(hogwarts[8]);
+
+        System.out.println();
+
+        griffindors[1].print();
+        System.out.println();
+        hufflepuffs[1].print();
+        System.out.println();
+        rawenclaws[1].print();
+        System.out.println();
+        slytherins[1].print();
+        System.out.println();
+        hogwarts[1].print();
+
     }
 }

@@ -48,4 +48,9 @@ public class Griffindor extends Hogwarts {
     private int ability() {
         return nobility + honor + bravery;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Студент %s; сила магии: %d; сила трансгрессии: %d, благородство: %d, честь: %d, храбрость: %d", getName(), getWitchCraft(), getTransgressionDistance(), getHonor(), getBravery(), getNobility());
+    }
 }

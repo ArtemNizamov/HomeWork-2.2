@@ -68,4 +68,8 @@ public class Slytherin extends Hogwarts {
     private int ability() {
         return cunning + determination + thirstForPower + resourcefulness + ambition;
     }
+    @Override
+    public String toString() {
+        return String.format("Студент %s; сила магии: %d; сила трансгрессии: %d, хитрость: %d, решительность: %d, честолюбие: %d, находчивость: %d, жажда власти: %d", getName(), getWitchCraft(), getTransgressionDistance(), getCunning(), getDetermination(), getAmbition(), getResourcefulness(), getThirstForPower());
+    }
 }

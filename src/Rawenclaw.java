@@ -58,4 +58,8 @@ public class Rawenclaw extends Hogwarts {
     private int ability() {
         return mind + wisdom + wit + creativity;
     }
+    @Override
+    public String toString() {
+        return String.format("Студент %s; сила магии: %d; сила трансгрессии: %d, ум: %d, мудрость: %d, остроумие: %d, креативность: %d", getName(), getWitchCraft(), getTransgressionDistance(), getMind(), getWisdom(), getWit(), getCreativity());
+    }
 }

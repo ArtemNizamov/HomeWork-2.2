@@ -47,4 +47,8 @@ public class Hufflepuff extends Hogwarts {
     private int ability() {
         return diligence + loyalty + honesty;
     }
+    @Override
+    public String toString() {
+        return String.format("Студент %s; сила магии: %d; сила трансгрессии: %d, трудолюбие: %d, чесиность: %d, преданность: %d", getName(), getWitchCraft(), getTransgressionDistance(), getDiligence(), getHonesty(), getLoyalty());
+    }
 }
